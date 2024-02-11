@@ -2,6 +2,7 @@
 <html lang="en"> 
 <head> 
    <meta charset="UTF-8"> 
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
    <title>My Website - About</title> 
 </head> 
 <body> 
@@ -12,5 +13,6 @@
     water management or to become a chemical data analyst, hence the minor
     in Information Technology. 
    </p> 
+   <img src="{{url_for('static', filename='molecular-model.jpg') }}" />
 </body> 
 </html>
